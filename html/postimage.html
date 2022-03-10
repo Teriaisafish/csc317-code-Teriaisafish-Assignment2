@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <b><label class="label_input">Post Title </label><input type="text" id="postTitle" class="text_field"/></b>
+        <br/>
+        <b><label class="label_input">Post Description </label><input type="text" id="postDescription" class="text_field"></b>
+        <br/>
+        <b><label class="label_input">Post Image </label><input type="file" id="postImage" class="file_field"/></b>
+
+        <input type="checkbox" name="agree" value="ON">
+        <label class="acceptablePolicy_check">I agree to the Acceptable Use Policy for uploading images.</label>
+
+        <input type="button" id="btn_post" value="Submit" onclick="SubmitEvent();"/>
+    </form>
+</body>
+</html>

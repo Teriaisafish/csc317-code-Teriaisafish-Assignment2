@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weclome CSC317 assignment! </title>
 
-    <link  href="style.css" rel="stylesheet" type="text/css"/>
+    <link  href="/css/login.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form method="post">
@@ -16,15 +16,9 @@
     <b><label class="label_input">Password </label><input type="password" id="password" class="text_field"></b>
     <br/>
 
-        <input type="checkbox" name="agree" value="ON">
-        <label class="privacy_check">I agree to the CSC317 assignment User Agreement and I acknowledge that I read the Privacy Policy.</label>
-        <br/>
-        <input type="checkbox" name="agree" value="ON">
-        <label class="age_check">Yes, I am 13 or older.</label>
-
     <div id="login_control">
         <input type="button" id="btn_login" value="Log in" onclick="login();"/>
-        <input type="button" id="btn_register" value="Create a new account" href=registration.html"/>
+        <input type="button" id="btn_register" value="Create a new account" onclick="registration.html"/>
     </div>
     </form>
 </body>
