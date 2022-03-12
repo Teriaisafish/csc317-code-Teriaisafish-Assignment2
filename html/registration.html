@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+
+    <link  href="/css/registeration.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form>
-        <p><label class="label_input">User name: </label><input type="text" id="username" class="text_field"/></p>
-        <p><label class="label_input">Password: </label><input type="text" id="password" class="text_field"></p>
-        <p><label class="label_input">Comfirm password: </label><input type="text" id="password" class="text_field"></p>
-        <p><label class="label_input">Email: </label><input type="text" id="email" class="text_field"/></p>
+        <div id="register_frame">
+        <p align="left"><label class="label_input">User name:  </label></p><p align="right"><input class="form_input" type="text" id="username" class="text_field"/></p>
+        <p align="left"><label class="label_input">Password:  </label></p><p align="right"><input class="form_input" type="password" id="password" class="text_field"/></p>
+        <p align="left"><label class="label_input">Confirm password:  </label></p><p align="right"><input class="form_input" type="text" id="password" class="text_field"/></p>
+        <p align="left"><label class="label_input">Email address:  </label></p><p align="right"><input class="form_input" type="email" id="email" class="text_field"/></p>
 
         <input type="checkbox" name="agree" value="ON">
-        <label class="privacy_check">I agree to the TOS and Privacy Rules.</label>
-        <link href="123.abc"/>
+        <label class="privacy_check">I agree to the TOS and </label>
+
+        <a href="Waiting for construction" id="privacy_policy">Privacy Rules.  </a>
         <br/>
         <input type="checkbox" name="agree" value="ON">
         <label class="age_check">Yes, I am 13+ years of age.</label>
+        <br/>
+        <br/>
+    
+        
+        <label><input type="button" id="btn_submit" value="Submit"/></label>
+        </div>
     </form>
     
 </body>
