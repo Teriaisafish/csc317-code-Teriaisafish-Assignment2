@@ -34,17 +34,18 @@ body {
 
 .label_input {
     
-    width: 65px;
-    height:28px;
+    font-size: 16px;
+    width: 200px;
+    height: 28px;
     line-height: 28px;
     text-align: center;
 
-    padding-top: 30px;
+    margin-top: 30px;
 
     position: relative;
 
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
+    
 }
 
 .text_field {
@@ -62,11 +63,8 @@ form p > * {
 
 #login_control {
 
-    width: 80px;
-    height: 28px;
-    line-height: 28px;
     text-align: center;
-
+    
     position: relative;
 
     display: inline-block;
