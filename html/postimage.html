@@ -8,11 +8,12 @@
 </head>
 <body>
     <form>
-        <b><label class="label_input">Post Title </label><input type="text" id="postTitle" class="text_field"/></b>
+        <b><label class="label_input">Post Title </label><input type="text" id="postTitle" class="text_field" required/></b>
         <br/>
-        <b><label class="label_input">Post Description </label><input type="text" id="postDescription" class="text_field"></b>
+        <b><label class="label_input">Post Description </label><input type="text" id="postDescription" class="text_field" required></b>
         <br/>
-        <b><label class="label_input">Post Image </label><input type="file" id="postImage" class="file_field"/></b>
+        <b><label class="label_input">Post Image </label>
+            <input type="file" accept="image/*" value="choose a file" id="postImage" class="file_field" required/></b>
 
         <input type="checkbox" name="agree" value="ON">
         <label class="acceptablePolicy_check">I agree to the Acceptable Use Policy for uploading images.</label>
