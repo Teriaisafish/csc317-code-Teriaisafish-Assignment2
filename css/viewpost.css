@@ -1,0 +1,49 @@
+body {
+    background-image: url("/css/image/Sunset.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+
+    text-align: center;
+    
+}
+
+#viewpost_frame {
+    width: 400px;
+    height: 200px;
+    padding: 13px;
+
+    position: relative;
+    left: auto;
+    top:auto;
+
+    color: #1C171A;
+    
+    margin-top: 100px;
+    margin-left: 350px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+
+    border-radius: 30px;
+    text-align: center;
+}
+
+#viewpost_image {
+
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+
+    position: relative;
+    background-image: url("/css/image/Eg2.png");
+    background-size: 420px 220px;
+    margin-top: 20px;
+    margin-left: 350px;
+    border: 3px rgb(143,178,201) solid;
+    border-radius: 25px;
+
+
+
+}
+
+

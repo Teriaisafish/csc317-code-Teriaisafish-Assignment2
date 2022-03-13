@@ -1,0 +1,71 @@
+body {
+    background-image: url("/css/image/Sunset.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+
+    text-align: center;
+    
+    
+}
+
+#register_frame {
+    width: 500px;
+    height: 320px;
+    padding: 13px;
+
+    position: relative;
+    left: auto;
+    top:auto;
+
+    color: #6C7D8F;
+    
+    margin-top: 130px;
+    margin-left: 350px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 255, 255, 0.5);
+
+    border-radius: 30px;
+    text-align: center;
+}
+
+#privacy_policy {
+    color: #005CAF;
+}
+
+.label_input {
+    
+    position:absolute;
+    margin-top: 5px;
+
+    padding: 5px;
+}
+
+.form_input {
+    
+    width: 250px;
+    height: 26px;
+    line-height: 28px;
+    text-align: center;
+
+    margin-top: 5px;
+
+    position: relative;
+
+    border-radius: 5px;
+    
+}
+
+#btn_submit {
+    background-color: #f4f4f4;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#btn_submit :hover {
+    color: blue;
+    text-decoration: underline;
+
+    position: relative;
+}
+
