@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Share pictures</title>
+
+    <link  href="/css/postimage.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<div id="post_frame">
     <form>
-        <b><label class="label_input">Post Title </label><input type="text" id="postTitle" class="text_field" required/></b>
+        <b><label class="label_input">Post Title </label>
+            <input type="text" id="postTitle" class="text_field" required/></b>
         <br/>
-        <b><label class="label_input">Post Description </label><input type="text" id="postDescription" class="text_field" required></b>
+        <b><label class="label_input">Post Description </label>
+            <input type="text" id="postDescription" class="text_field" required></b>
         <br/>
         <b><label class="label_input">Post Image </label>
             <input type="file" accept="image/*" value="choose a file" id="postImage" class="file_field" required/></b>
-
+            <br/>
+            <br/>
         <input type="checkbox" name="agree" value="ON">
-        <label class="acceptablePolicy_check">I agree to the Acceptable Use Policy for uploading images.</label>
-
+        <label class="acceptablePolicy_check">I agree to the </label>
+            <a href="Waiting for construction" id="acceptablePolicy_check">Acceptable Use Policy </a>
+        <label class="accepyablePolicy_check"> for uploading images.</label>
+        <br/>
+        <br/>
         <input type="button" id="btn_post" value="Submit" onclick="SubmitEvent();"/>
     </form>
+</div>
 </body>
 </html>
