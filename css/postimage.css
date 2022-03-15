@@ -1,0 +1,77 @@
+body {
+    background-image: url("/css/image/Sunset.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+
+    text-align: center;
+    
+}
+
+#post_frame {
+    width: 500px;
+    height: 400px;
+    padding: 13px;
+
+    position: relative;
+    left:auto;
+    top:50%;
+
+    color: #6C7D8F;
+    
+    margin-top: 130px;
+    margin-left: 350px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 255, 255, 0.5);
+
+    border-radius: 30px;
+    text-align: center;
+}
+
+.label_input {
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.text_field {
+    width: 278px;
+    height: 28px;
+    margin-top: 5px;
+    padding: 5px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.file_field {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px;
+    vertical-align: top;
+
+    height: 200px;
+    width: 320px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+#acceptablePolicy_check {
+    color: #005CAF;
+}
+
+#btn_post { 
+    background-color: #f4f4f4;
+    padding: 5px 15px;
+    border-radius: 10px;
+    
+}
+
+#btn_post :hover {
+    color: blue;
+    text-decoration: underline;
+
+    position: relative;
+}
